@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ticTac.css">
+    <title>TIC TAC TOE</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="main">
+        <div class="resut">
+            <table border="2">
+                <caption>Results For: </caption>
+                <thead>
+                    <th>X Wins</th>
+                    <th>O Wins</th>
+                    <th>Draws</th>
+                </thead>
+            </table>
+        </div>
+        <div class="game">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="rsttable"><button onclick="resetTable()">Reset Table</button></div>
+        <div class="rstgame"><button onclick="resetGame()">Reset Game</button></div>
+    </div>
+    <div class="audiofiles">
+        <audio src="c1.wav"></audio>
+        <audio src="game-over-arcade-6435.mp3"></audio>
+        <audio src="win.wav"></audio>
+    </div>
+</body>
+<script src="ticTac.js"></script>
+
+</html>
